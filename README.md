@@ -10,4 +10,4 @@ This teplate is in **Persian** and RTL **fully responsive**
 6. latest news
 
 **language used**: `HTML CSS JavaScript`
-just open `CarAuto.htm` file in your browser
+just open `Dr.htm` file in your browser
