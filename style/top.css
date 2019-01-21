@@ -1,0 +1,307 @@
+﻿@font-face {
+    src: url("../font/Vazir.ttf");
+    font-family: ir;
+}
+
+@font-face {
+    src: url("../font/Vazir_Bold.ttf");
+    font-family: irbold;
+}
+
+@font-face {
+    src: url("../font/Vazir_Light.ttf");
+    font-family: irlight;
+}
+
+@font-face {
+    src: url("../font/Social Media Circled.otf");
+    font-family: soso;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+
+#top {
+    transition: 0.3s;
+    /*border: 1px solid #ccc;*/
+    /*height: 153px;*/
+    background-color: white;
+}
+
+#top.top {
+    transition: 0.3s;
+    box-shadow: 0 2px 10px -3px #ccc;
+    z-index: 2000;
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+}
+
+#top>#holder {
+    /*border: 1px solid blue;*/
+    /*height: 100%;*/
+    width: 1500px;
+    margin: auto;
+}
+
+#top>#holder>#up {
+    transition: 0.3s;
+    /*border: 1px solid red;*/
+    height: 28px;
+    padding-top: 25px;
+}
+
+#top>#holder>#up.up {
+    display: none;
+}
+
+#top>#holder>#up>.inf:first-child {
+    border-left: 1px solid #ccc;
+}
+
+#top>#holder>#up>.inf {
+    font-family: ir;
+    font-size: 14px;
+    padding: 0 10px;
+    color: #9b9b9b;
+    float: right;
+}
+
+#top>#holder>#up>.search:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    background-position: 0 -33px;
+}
+
+#top>#holder>#up>.search {
+    transition: 0.2s;
+    font-family: ir;
+    font-size: 14px;
+    padding: 0 10px 0 40px;
+    color: #9b9b9b;
+    float: left;
+    background-image: url("../pic/top/search.png");
+    background-size: 28px;
+    background-position: 0 -3px;
+    background-repeat: no-repeat;
+}
+
+#top>#holder>#down {
+    transition: 0.3s;
+    /*  border: 1px solid green;*/
+    height: 74px;
+    padding: 15px 1%;
+    border-bottom: 1px solid #ebebeb;
+}
+
+#top>#holder>#down.down {
+    border: 0 none;
+    transition: 0.3s;
+}
+
+#top>#holder>#down>img {
+    height: 100%;
+}
+
+#top>#holder>#down>.menu {
+    padding: 0;
+    margin: 0 280px 0 0;
+    list-style: none;
+    height: 100%;
+    display: inline-block;
+}
+
+#top>#holder>#down>.menu>.zir:hover {
+    cursor: pointer;
+    color: #f6516a;
+    transition: 0.2s;
+}
+
+#top>#holder>#down>.menu>.zir {
+    float: right;
+    padding: 0 13px;
+    margin: 22px 0 0 10px;
+    font-family: ir;
+    font-weight: 500;
+    font-size: 18px;
+    height: 50px;
+    transition: 0.2s;
+}
+
+#top>#holder>#down>.menu>.zir:first-child {
+    color: #f6516a;
+}
+
+#top>#holder>#down>.menu>.zir:last-child {
+    margin-right: 110px;
+    padding-right: 60px;
+    background: url("../pic/top/call.png") no-repeat 85% 0;
+    background-size: 22px;
+}
+
+#top>#holder>#down>.menu>.zir1:hover,
+#top>#holder>#down>.menu>.zir2:hover {
+    background-image: url("../pic/top/dowm.jpg");
+}
+
+#top>#holder>#down>.menu>.zir1,
+#top>#holder>#down>.menu>.zir2 {
+    padding-left: 25px;
+    background-image: url("../pic/top/down.jpg");
+    background-repeat: no-repeat;
+    background-position: -2% 13%;
+    background-size: 17px;
+    position: relative;
+}
+
+#top>#holder>#down>.menu>.zir1:hover>.zirbakhsh {
+    transition: 0.3s;
+    top: 100%;
+    z-index: 1000;
+    opacity: 1;
+    visibility: visible;
+}
+
+#top>#holder>#down>.menu>.zir1>.zirbakhsh {
+    transition: 0.2s;
+    height: 120px;
+    width: 335px;
+    padding: 26px 10px 36px 0;
+    background-color: white;
+    position: absolute;
+    box-shadow: 0 1px 2px 2px rgba(204, 204, 204, 0.5);
+    top: 300%;
+    z-index: -100;
+    opacity: 0;
+    visibility: hidden;
+    right: 0;
+    cursor: default;
+    border-top: 2px solid #f6516a;
+}
+
+#top>#holder>#down>.menu>.zir1>.zirbakhsh>.sub:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    padding-right: 20px;
+    width: 120px;
+    background-position: 100% 40%;
+    color: #f6516a;
+}
+
+#top>#holder>#down>.menu>.zir1>.zirbakhsh>.sub {
+    float: right;
+    height: 30px;
+    width: 140px;
+    margin-right: 8px;
+    font-family: ir;
+    font-size: 14px;
+    line-height: 30px;
+    transition: 0.2s;
+    background-image: url("../pic/top/side.jpg");
+    background-repeat: no-repeat;
+    background-position: 110% 40%;
+    background-size: 15px;
+    padding-right: 0;
+    color: black;
+}
+
+#top>#holder>#down>.menu>.zir2:hover>.zirpage {
+    top: 100%;
+    z-index: 1000;
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s;
+}
+
+#top>#holder>#down>.menu>.zir2>.zirpage {
+    transition: 0.2s;
+    height: 250px;
+    width: 1400px;
+    padding: 35px 100px 40px 0;
+    background-color: white;
+    position: absolute;
+    box-shadow: 0 1px 2px 2px rgba(204, 204, 204, 0.5);
+    top: 300%;
+    z-index: -100;
+    opacity: 0;
+    visibility: hidden;
+    right: -797px;
+    cursor: default;
+    border-top: 2px solid #f6516a;
+}
+
+#top>#holder>#down>.menu>.zir2>.zirpage>ul {
+    list-style: none;
+    float: right;
+    width: 25%;
+}
+
+#top>#holder>#down>.menu>.zir2>.zirpage>ul:first-child {
+    padding: 0;
+}
+
+#top>#holder>#down>.menu>.zir2>.zirpage>ul>li {
+    font-family: ir;
+    font-size: 14px;
+    color: black;
+    line-height: 30px;
+    width: 210px;
+}
+
+#top>#holder>#down>.menu>.zir2>.zirpage>ul>.big {
+    color: #f6516a;
+    border-bottom: 1px solid #d4d4d4;
+    margin: 10px 0;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+#top>#holder>#down>.menu>.zir2>.zirpage>ul>.norm {
+    margin: 10px 10px 0 0;
+    background-image: url("../pic/top/side.jpg");
+    background-repeat: no-repeat;
+    background-position: 110% 40%;
+    background-size: 15px;
+    transition: 0.2s;
+}
+
+#top>#holder>#down>.menu>.zir2>.zirpage>ul>.norm:hover {
+    cursor: pointer;
+    transition: 0.2s;
+    width: 190px;
+    padding-right: 20px;
+    color: #f6516a;
+    background-position: 100% 40%;
+}
+
+#bala:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    background: #f6516a url("../pic/other/up.png") no-repeat;
+    background-size: 40px;
+    background-position: 50% 50%;
+}
+
+#bala {
+    transition: 0.3s;
+    z-index: 1000;
+    position: fixed;
+    bottom: -45px;
+    right: 5%;
+    transition: 0.3s;
+    height: 40px;
+    width: 70px;
+    border-radius: 15px 15px 0 0;
+    background: black url("../pic/other/up.png") no-repeat;
+    background-size: 40px;
+    background-position: 50% 50%;
+}
+
+#bala.bala {
+    transition: 0.3s;
+    bottom: 0;
+}

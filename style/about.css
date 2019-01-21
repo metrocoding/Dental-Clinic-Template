@@ -1,0 +1,121 @@
+#about {
+    /*border: 1px solid #ccc;*/
+    height: 458px;
+    width: 1500px;
+    padding: 0 0 90px 0;
+    margin: auto;
+}
+
+#about>.ax {
+    position: relative;
+    /*border: 1px solid red;*/
+    height: 458px;
+    width: 705px;
+    background: url("../pic/other/dent.jpg") no-repeat;
+    overflow: hidden;
+    float: right;
+}
+
+#about>.ax>div {
+    /*border: 1px solid blue;*/
+    height: 100px;
+    width: 100px;
+    background: #fff;
+    transform: rotateZ(-45deg);
+    position: absolute;
+}
+
+#about>.ax>.up {
+    top: -52px;
+    left: -52px;
+}
+
+#about>.ax>.down {
+    bottom: -52px;
+    right: -52px;
+}
+
+#about>.tozih {
+    height: 100%;
+    width: 720px;
+    float: left;
+}
+
+#about>.tozih>.line {
+    width: 94%;
+    height: 1px;
+    background-color: #b9b9b9;
+    margin-top: 70px;
+    position: relative;
+}
+
+#about>.tozih>.line>.heading {
+    width: 250px;
+    height: 55px;
+    position: absolute;
+    background-color: #fff;
+    right: 0;
+    top: -27px;
+    font-family: ir;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: right;
+    line-height: 55px;
+}
+
+#about>.tozih>.matn {
+    font-family: ir;
+    color: #b8b8b8;
+    font-size: 18px;
+    padding: 0 0 0 30px;
+    margin: 60px 0 40px 0;
+    line-height: 30px;
+}
+
+#about>.tozih>.detail {
+    width: 100%;
+    overflow: hidden;
+    /*height: 210px;*/
+}
+
+#about>.tozih>.detail>.box {
+    height: 55px;
+    width: 220px;
+    padding-right: 50px;
+    float: right;
+    margin: 0 0 40px 70px;
+}
+
+#about>.tozih>.detail>.box1 {
+    background: url("../pic/other/01.png") no-repeat 230px 0;
+}
+
+#about>.tozih>.detail>.box2 {
+    background: url("../pic/other/02.png") no-repeat 230px 0;
+}
+
+#about>.tozih>.detail>.box3 {
+    background: url("../pic/other/03.png") no-repeat 230px 40%;
+}
+
+#about>.tozih>.detail>.box4 {
+    background: url("../pic/other/04.png") no-repeat 230px 40%;
+}
+
+#about>.tozih>.detail>.box>div {
+    width: 220px;
+    height: 50%;
+    font-family: ir;
+    text-align: right;
+}
+
+#about>.tozih>.detail>.box>.up {
+    color: #151515;
+    font-size: 20px;
+}
+
+#about>.tozih>.detail>.box>.down {
+    color: #b8b8b8;
+    font-size: 16px;
+    line-height: 35px;
+}

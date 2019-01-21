@@ -1,0 +1,79 @@
+  #numbers {
+      /*border: 1px solid #ccc;*/
+      height: 89px;
+      width: 1500px;
+      padding: 40px 0;
+      margin: auto;
+      background-color: #3c444f;
+      font-family: ir;
+      position: relative;
+  }
+  
+  #numbers>.holder {
+      /* border: 1px solid red;*/
+      height: 100%;
+      width: 1210px;
+      margin: auto;
+      padding-right: 8px;
+  }
+  
+  #numbers>.holder>.adad {
+      /*border: 1px solid blue;*/
+      height: 100%;
+      width: 300px;
+      float: right;
+      border-left: 1px solid #5b6674;
+  }
+  
+  #numbers>.holder>.adad>div {
+      color: #fff;
+      text-align: center;
+      /*border: 1px solid red;*/
+  }
+  
+  #numbers>.holder>.adad:nth-child(4) {
+      border: 0 none;
+  }
+  
+  #numbers>.holder>.adad>.top {
+      font-size: 75px;
+      line-height: 60px;
+      height: 65px;
+  }
+  
+  #numbers>.holder>.adad>.down {
+      height: 24px;
+  }
+  
+  #numbers>.khat {
+      position: absolute;
+      height: 0;
+      border-top: 1px solid #5b6674;
+      width: 118px;
+      top: 50%;
+  }
+  
+  #numbers>.kh1 {
+      right: 20px;
+  }
+  
+  #numbers>.kh2 {
+      left: 20px;
+  }
+  
+  #numbers>.khat>.lilbox {
+      width: 17px;
+      height: 17px;
+      background-color: #f6516a;
+      border-radius: 3px;
+      position: absolute;
+      top: -9px;
+  }
+  
+  #numbers>.kh1>.lilbox {
+      left: -17px;
+  }
+  
+  #numbers>.kh2>.lilbox {
+      right: -17px;
+  }

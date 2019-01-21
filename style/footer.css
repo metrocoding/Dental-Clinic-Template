@@ -1,0 +1,122 @@
+﻿#end {
+    width: 1500px;
+    margin: auto;
+}
+
+#end>.footer {
+    height: 120px;
+    padding: 60px 0;
+    background-color: #f2f3f8;
+}
+
+#end>.footer>div {
+    font-family: ir;
+    margin: 0 4.15%;
+    float: right;
+    height: 120px;
+}
+
+#end>.footer>div>.up {
+    position: relative;
+    height: 40px;
+    border-bottom: 1px solid #d9dadc;
+    color: #151515;
+    font-size: 20px;
+}
+
+#end>.footer>div>.up>.red {
+    width: 66px;
+    border-bottom: 1px solid #f6516a;
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+}
+
+#end>.footer>div>.down {
+    height: 79px;
+}
+
+#end>.footer>div:first-child>.down {
+    direction: ltr;
+    text-align: right;
+    padding: 20px 30px 0 0;
+    line-height: 25px;
+    font-size: 15px;
+    background: url("../pic/other/mail.jpg") no-repeat;
+    background-position: 103% 18px;
+}
+
+#end>.footer>div:nth-child(2)>.down {
+    text-align: right;
+    padding: 20px 30px 0 0;
+    line-height: 25px;
+    font-size: 15px;
+    color: #9b9b9b;
+    background: url("../pic/other/loc.jpg") no-repeat;
+    background-position: 101% 25px;
+}
+
+#end>.footer>.med {
+    width: 20%;
+}
+
+#end>.footer>.big {
+    width: 32%;
+}
+
+#end>.footer>.big>.down>ul {
+    list-style: none;
+    margin: 0;
+    font-family: ir;
+    padding: 0;
+}
+
+#end>.footer>.big>.down>ul>li:hover {
+    cursor: pointer;
+    color: #f6516a;
+    transition: 0.2s;
+    transform: translateX(-10px);
+}
+
+#end>.footer>.big>.down>ul>li {
+    transition: 0.2s;
+    font-size: 15px;
+    width: 20%;
+    color: #9b9b9b;
+    float: right;
+    padding-right: 5%;
+    margin: 10px 0 0 5%;
+    background: url("../pic/top/left.png") no-repeat;
+    background-position: 99% 4px;
+    background-size: 15px;
+}
+
+#end>.down {
+    height: 24px;
+    padding: 20px 0;
+    background-color: #e4eaf4;
+    color: #9b9b9b;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: ir;
+    text-align: right;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+#end>.down>.so:hover {
+    transition: 0.5s;
+    cursor: pointer;
+    color: #f6516a;
+}
+
+#end>.down>.so {
+    transition: 0.5s;
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    font-family: soso;
+    font-size: 25px;
+    color: black;
+}

@@ -1,0 +1,376 @@
+#info {
+    /*border: 1px solid #ccc;*/
+    height: 324px;
+    width: 1500px;
+    padding: 90px 0;
+    margin: auto;
+}
+
+#info>.open {
+    border: 3px solid #ebebeb;
+    height: 240px;
+    width: 23.5%;
+    padding: 35px 2% 40px 2.5%;
+    position: relative;
+}
+
+#info>.open:hover>.kesho {
+    height: 102%;
+    width: 101%;
+    transition: 0.3s;
+}
+
+#info>.open>.kesho {
+    transition: 0.3s;
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    background-color: #f6516a;
+    z-index: 75;
+    height: 0;
+    width: 0;
+}
+
+#info>div>.sefid {
+    /*border: 1px solid gold;*/
+    background-color: white;
+    height: 90px;
+    width: 60px;
+    position: absolute;
+    top: -8px;
+    right: -6px;
+    z-index: 50;
+}
+
+#info>.open:hover>.title {
+    transition: 0.3s;
+    color: #ffffff;
+    transform: translateX(-30px);
+}
+
+#info>div>.title {
+    transition: 0.3s;
+    /*border: 1px solid red;*/
+    width: 90%;
+    height: 30px;
+    font-family: ir;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    z-index: 100;
+    color: #151515;
+}
+
+#info>.open:hover>div:nth-child(3) {
+    transition: 0.3s;
+    border-bottom: 1px solid #ffffff;
+}
+
+#info>.open>div:nth-child(3) {
+    transition: 0.3s;
+    margin-top: 60px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+#info>.open:hover>div:nth-child(4) {
+    transition: 0.3s;
+    border-bottom: 1px solid #ffffff;
+}
+
+#info>.open>div:nth-child(4) {
+    transition: 0.3s;
+    border-bottom: 1px solid #ebebeb;
+}
+
+#info>.open>.time {
+    /*border: 1px solid red;*/
+    width: 100%;
+    height: 55px;
+    position: relative;
+    z-index: 100;
+}
+
+#info>.open:hover>.time>.right {
+    transition: 0.3s;
+    color: #ffffff;
+}
+
+#info>.open>.time>.right {
+    transition: 0.3s;
+    float: right;
+    /* border: 1px solid blue;*/
+    height: 100%;
+    font-family: ir;
+    font-size: 16px;
+    text-align: right;
+    color: #151515;
+    line-height: 50px;
+}
+
+#info>.open:hover>.time>.left {
+    transition: 0.3s;
+    color: #ffffff;
+}
+
+#info>.open>.time>.left {
+    transition: 0.3s;
+    float: left;
+    /*border: 1px solid blue;*/
+    height: 100%;
+    font-family: ir;
+    font-size: 16px;
+    text-align: left;
+    color: #9b9b9b;
+    line-height: 50px;
+}
+
+#info>div {
+    float: right;
+}
+
+#info>.doc {
+    border: 3px solid #ebebeb;
+    height: 315px;
+    width: 28%;
+    margin-right: 2.5%;
+    position: relative;
+}
+
+#info>.doc:hover>.title {
+    transition: 0.3s;
+    color: #ffffff;
+    transform: translateX(-30px);
+}
+
+#info>.doc:hover>.table {
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+#info>.doc>.table {
+    transition: 0.3s;
+    margin-top: 110px;
+    padding: 0 30px;
+    font-family: ir;
+    font-size: 16px;
+    text-align: right;
+    color: #9b9b9b;
+    line-height: 35px;
+    position: relative;
+    z-index: 100;
+}
+
+#info>.doc>.box {
+    width: 180px;
+    height: 50px;
+    background-color: #ebebeb;
+    font-family: ir;
+    font-size: 16px;
+    text-align: center;
+    color: #151515;
+    line-height: 47px;
+    margin: 20px 30px 0 0;
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+}
+
+#info>.doc>.box:hover>.rang {
+    transition: 0.2s;
+    cursor: pointer;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+    opacity: 1;
+    visibility: visible;
+}
+
+#info>.doc>.box>.rang {
+    position: absolute;
+    transition: 0.1s;
+    height: 100%;
+    background-color: #ffffff;
+    color: #151515;
+    top: 0;
+    right: 43px;
+    z-index: -200;
+    width: 94px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#info>.doc:hover>.kesho {
+    transition: 0.3s;
+    height: 102%;
+    width: 101%;
+}
+
+#info>.doc>.kesho {
+    transition: 0.3s;
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    z-index: 75;
+    background-color: #f6516a;
+    height: 0;
+    width: 0;
+}
+
+#info>.appo {
+    border: 3px solid #ebebeb;
+    height: 315px;
+    width: 37%;
+    margin-right: 2.3%;
+    position: relative;
+}
+
+#info>.appo:hover>.title {
+    transition: 0.3s;
+    color: #ffffff;
+    transform: translateX(-30px);
+}
+
+#info>.appo>.holder {
+    width: 95%;
+    height: 60%;
+    margin: 100px auto;
+    z-index: 100;
+    position: relative;
+}
+
+#info>.appo>.holder>div {
+    float: right;
+}
+
+#info>.appo>.holder>.dep:hover {
+    cursor: pointer;
+}
+
+#info>.appo>.holder>.dep {
+    border: 1px solid #ebebeb;
+    height: 30%;
+    width: 38%;
+    margin: 2% 0 2% 5%;
+    padding-right: 7%;
+    background-image: url("../pic/top/down.jpg");
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 10% center;
+    background-color: white;
+    position: relative;
+    font-family: ir;
+    font-size: 16px;
+    text-align: right;
+    color: #151515;
+    line-height: 60px;
+}
+
+#info>.appo>.holder>.dep>.choose {
+    position: absolute;
+    height: 100%;
+    width: 83%;
+    font-family: ir;
+    font-size: 16px;
+    text-align: right;
+    color: #151515;
+    line-height: 60px;
+}
+
+#info>.appo>.holder>.dep>ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    background-color: #ffffff;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    box-shadow: 0 2px 2px 2px #ccc;
+    transition: 0.3s;
+    visibility: hidden;
+    z-index: 2000;
+}
+
+
+}
+#info>.appo>.holder>.dep>ul>li:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #f6516a;
+}
+#info>.appo>.holder>.dep>ul>li {
+    transition: 0.3s;
+    padding-right: 5%;
+    width: 95%;
+    line-height: 35px;
+}
+#info>.appo>.holder>.phone {
+    margin: 2% 0 2% 2%;
+    background-color: white;
+    font-family: ir;
+    font-size: 16px;
+    border: 1px solid #ebebeb;
+    height: 30%;
+    text-align: right;
+    color: #a0a0a0;
+    padding-right: 2%;
+    line-height: 60px;
+    width: 43%;
+}
+#info>.appo>.holder>.box {
+    width: 45.5%;
+    height: 60px;
+    margin: 2% 0 2% 4.20%;
+    background-color: #ebebeb;
+    font-family: ir;
+    font-size: 16px;
+    text-align: center;
+    color: #151515;
+    line-height: 57px;
+    position: relative;
+    z-index: 100;
+    float: left;
+    overflow: hidden;
+}
+#info>.appo>.holder>.box:hover>.rang {
+    transition: 0.2s;
+    cursor: pointer;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+    opacity: 1;
+    visibility: visible;
+}
+#info>.appo>.holder>.box>.rang {
+    position: absolute;
+    transition: 0.1s;
+    height: 100%;
+    background-color: #ffffff;
+    color: #151515;
+    top: 0;
+    right: 31%;
+    z-index: -200;
+    width: 38.5%;
+    opacity: 0;
+    visibility: hidden;
+}
+#info>.appo:hover>.kesho {
+    transition: 0.3s;
+    height: 102%;
+    width: 101%;
+}
+#info>.appo>.kesho {
+    transition: 0.3s;
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    z-index: 75;
+    background-color: #f6516a;
+    height: 0;
+    width: 0;
+}

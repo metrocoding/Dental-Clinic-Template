@@ -1,0 +1,168 @@
+﻿#client {
+    /* border: 1px solid purple;*/
+    width: 1500px;
+    height: 460px;
+    margin: 0 auto 90px auto;
+    background: url("../pic/other/dentist.jpg") no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#client>.main {
+    position: absolute;
+    text-shadow: 0px 0px 10px #000000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.472);
+}
+
+#client>.main>.left:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: #f6516a;
+    background-image: url("../pic/other/leftw.png");
+}
+
+#client>.main>.left {
+    transition: 0.2s;
+    position: absolute;
+    top: 43%;
+    left: 0;
+    width: 52px;
+    height: 52px;
+    background-image: url("../pic/other/left.png");
+    background-color: #ffffff;
+    background-size: 52px;
+    background-repeat: no-repeat;
+}
+
+#client>.main>.right:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: #f6516a;
+    background-image: url("../pic/other/rightw.png");
+}
+
+#client>.main>.right {
+    transition: 0.2s;
+    position: absolute;
+    top: 43%;
+    right: 0;
+    width: 52px;
+    height: 52px;
+    background-image: url("../pic/other/right.png");
+    background-color: #ffffff;
+    background-size: 52px;
+    background-repeat: no-repeat;
+}
+
+#client>.main>.matn {
+    width: 60%;
+    height: 57px;
+    margin: 50px auto 0 auto;
+    font-family: ir;
+    font-size: 45px;
+    line-height: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+#client>.main>.nazar {
+    width: 70%;
+    position: relative;
+    height: 163px;
+    margin: 30px auto 10px auto;
+}
+
+#client>.main>.nazar>.naz:nth-child(1) {
+    visibility: visible;
+    opacity: 1;
+}
+
+#client>.main>.nazar>.naz {
+    transition: 0.3s;
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#client>.main>.nazar>.naz>.first {
+    width: 100%;
+    height: 92px;
+    color: #ffffff;
+    font-family: ir;
+    font-size: 16px;
+    line-height: 33px;
+}
+
+#client>.main>.nazar>.naz>.khat {
+    width: 100px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 22px auto 22px auto;
+}
+
+#client>.main>.nazar>.naz>.name {
+    width: 100%;
+    height: 24px;
+    color: #ffffff;
+    font-family: ir;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#client>.main>.aks {
+    width: 410px;
+    height: 80px;
+    margin: 30px auto;
+}
+
+#client>.main>.aks>.pic:nth-child(1) {
+    background: url("../pic/other/pa1.jpg") no-repeat;
+    background-size: 100% 100%
+}
+
+#client>.main>.aks>.pic:nth-child(2) {
+    background: url("../pic/other/pa2.jpg") no-repeat;
+    background-size: 100% 100%
+}
+
+#client>.main>.aks>.pic:nth-child(3) {
+    background: url("../pic/other/pa3.jpg") no-repeat;
+    background-size: 100% 100%
+}
+
+#client>.main>.aks>.pic:nth-child(4) {
+    background: url("../pic/other/pa4.jpg") no-repeat;
+    background-size: 100% 100%
+}
+
+#client>.main>.aks>.pic:hover {
+    transition: 0.3s;
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0 0 1px 3px #f6516a;
+}
+
+#client>.main>.aks>.pic {
+    transition: 0.3s;
+    width: 80px;
+    height: 80px;
+    margin: 0 10px;
+    float: right;
+    border-radius: 50%;
+    border: 0 none;
+}
+
+#client>.main>.aks>.on {
+    transition: 0.3s;
+    transform: scale(1.1);
+    box-shadow: 0 0 1px 3px #f6516a;
+}
