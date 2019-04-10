@@ -1,5 +1,5 @@
 # Template for Dental Clinic
-This teplate is in **Persian** and RTL **fully responsive**
+This template is in **Persian** and RTL **fully responsive**
 
 ##Main features:
 1. slider
